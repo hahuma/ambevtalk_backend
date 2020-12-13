@@ -1,0 +1,17 @@
+{
+  "name": "ambev_hackathon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "webscrap": "node ./src/services/puppeteer/index.js"
+  },
+  "author": "Petterson <firminopetterson@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "puppeteer": "^5.5.0",
+    "uuid": "^8.3.2"
+  }
+}
